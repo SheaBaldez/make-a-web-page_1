@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style1.css" rel="stylesheet" type="text/css">
+  <title>Introduction to Programming Nanodegree Project</title>
+</head> 
+<body>
+<div class=menu>
+    Introduction to Programming: Project Stage One
+</div>
+  <!--May use a side bar in next stages of project <div class=sidebar>
+      <h2>Jump to a Topic</h2>
+      <ul>
+        <li>topic</li>
+        <li>topic</li>
+        <li>topic</li>
+      </ul>
+  </div>-->
+<h1>The Basics</h1>
+  <h2>What is the Internet?</h2> 
+   Basically, the Internet is a collection of documents which can be linked to eachother 
+  <h2>Learning to Code</h2>
+   Learning to code is like learning another  language, only much easier. Unlike learning a human language, there are no irregular verbs, no cultural connotations or false cognates and you do not have to practice a new accent. You also don't have to memorize much because you can always look up whatever phrase you're trying to use. All you have to do is understand the basic, overarching rules of talking to computers and you have to get an understanding of how the computer "understands" what you say to it.  
+   Non-programmers see familiar things like images, text and videos on a webpage but, a programmer knows all of those images, text and videos are appearing only because someone gave the computer specific and structured instructions to display those things. Since they can speak the same language as a computer they can see how the webpage might look from the computer's perspective. This is known as<div class=emphasis> technological empathy</div>.
+   
+  <h2>What is the Computer's Perspective?</h2>
+   Computers are literal. They don't jump to conclusions about what you're trying to say to them. They do exactly as they are told; so it doesn't matter what the programmer meant, it only matters what the programmer said. For instance, if I told you to "take the stairs" you would fill in the blanks automatically. You would know I meant for you to find the stairway, choose a direction to go, then step on the first step, then the next and so on until you reached your destination. You would be able to do this because we rely on context and prior knowledge in order to understand each other. A computer is not so sympathetic to you. It doesn't know what you want and it won't make any assumptions so you have to be very specific with your instructions. If a computer could "take the stairs" you would have to tell it exactly how to complete each stage in the process. 
+<h1>HTML</h1>
+<h2>What is HTML?</h2>
+   <div class=emphasis>HyperText Markup Language</div> is the language of the Internet. It is made up of text, documents and markup (the commands dictating the appearance of the text, image, etc.) 
+  <h2>Page Structure</h2>
+   Pages are organized in a way that, when visualized, might look like a chart which starts with one box and branches out into many boxes in a systematic way. If we were to draw it out, it may look like tree roots growing outward and multiplying. This is called the <div class=emphasis>Document Object Model</div> in the programming world. <a href="http://en.wikipedia.org/wiki/Tree_structure">The Wikipedia page on Tree Structure</a>  has a lot more information on tree structures but, for me, the most helpful graphic Wikipedia provides is this one: 
+  <a href="http://en.wikipedia.org/wiki/Tree_structure"><img src="http://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg" alt="Encyclopedia topic structure" style="width:300px;height:600px;"></a>
+   <br>
+   The image shows the way an encyclopedia visually represented all of its topics and subtopics. This is similar in structure to a document for a webpage in which you have one main section then smaller sections fit into it.  
+  <h2>The Anatomy of an HTML Document</h2>
+   
+  An HTML document is structured like this:
+  <ul>
+    <li><div class=code>&lt;!DOCTYPE HTML&gt;</div> 
+    This tells us what kind of document it will be
+    <li><div class=code>&lt;html&gt;</div> This indicates the beginning of the HTML
+    <li><div class=code>&lt;head&gt; &lt;/head&gt;</div> This section can contain the title <div class=code>&lt;title&gt;&lt;/title&gt;</div> of the page as well as the links to the CSS, Javascript, or metadata for the page.
+    <li><div class=code>&lt;body&gt;</div><div class=code>&lt;/body&gt;</div> This section contains the contents of the page.
+    <li><div class=code>&lt;/html&gt;</div> This indicates the end of the HTML content
+  </ul>
+  <h2>Some HTML Terminology</h2>
+   <ul>
+      <li><div class=emphasis>Void tag:</div>a tag which does not contain content (such as the line break tag <div class=code>&lt;br&gt;</div>) so it does not require a closing tag.</li>
+      <li><div class=emphasis>Inline tag:</div> tags which are just text; they don't change the size or position of the content; for example <div class=code>&lt;b&gt;</div>, <div class=code>&lt;em&gt;</div>, <div class=code>&lt;img&gt;</div></li>
+      <li><div class=emphasis>Block tag:</div> a tag which creates boundries or an invisible box; it can have a height and width; <div class=code>&lt;p&gt;</div> is a block tag</li>
+      <li><div class=emphasis>Element:</div> the group of text and tags which includes the opening and closing tags and the content</li>
+     </ul>
+   This helpful diagram of an element is from the <a href="https://developer.mozilla.org/en-US/Learn/HTML/HTML_tags"> Mozilla Developer Network</a>'s guide to HTML Tags
+       <a href="https://developer.mozilla.org/en-US/Learn/HTML/HTML_tags"><img src="https://mdn.mozillademos.org/files/8573/anatomy-of-an-html-element.png" alt="HTML element" style="width:300px;height:100px">
+      </a>
+  <div class=note>Remember: It's OK to forget certain tags. You just have to remember the big picture of how coding works, not memorize every tag.</div>
+  <h2>Some Tags for Beginners:</h2>
+    <ul>
+      <li> <div class=code>&lt;href&gt;</div> is a hyperlink</li>
+      <li> <div class=code>&lt;a&gt;</div> is an anchor; you can use it with the <div class=code>&lt;href&gt;</div> tag</li>
+      <li> <div class=code>&lt;br&gt;</div> is a line break</li>
+      <li> <div class=code>&lt;p&gt;</div> is  a paragraph</li>
+      <li> <div class=code>&lt;img&gt;</div> is an image</li>
+      <li> <div class=code>&lt;em&gt;</div> makes text italic</li>
+      <li> <div class=code>&lt;span&gt;</div> an inline way to contain text in order to apply a certain style to it</li>
+      <li> <div class=code>&lt;div&gt;</div> a block way to contain text in order to apply a certain style to it</li>
+    </ul>
+  The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"> Mozilla Developer Network</a> lists all the HTML tags you can use to create elements as well as how and why the tags work. 
+  <div class=note>The difference between paragraph tag and break tag is, <div class=code>&lt;p&gt;</div> can have height and width, or <div class=emphasis>block</div>, but <div class=code>&lt;br&gt;</div> is just a line break, or <div class=emphasis>inline</div>
+  </div> 
+<h2>Avoiding Repetition</h2>
+   Have you ever had to nag someone to do something or remind someone over and over of how they're supposed to get something done? It's maddening. The same goes for talking to computers. When you tell a computer to do something, you must be specific and detailed with your words. If you want the computer to do the same thing in multiple parts of a webpage, you will have to type all of this out each time. This can get very tiresome and create a lot of unnecessary code in a page or website with even small amounts of content. When we have to repeat ourselves over and over, we also risk making mistakes or skipping it in places we did not mean to leave it out. It's better if you can create a shortcut by giving the computer a set of attributes it should apply whenever you use the shortcut tag. These shortcut tags are normally either a<div class=code>&lt;div&gt;</div> or a <div class=code>&lt;span&gt;</div>. 
+<h1>CSS</h1>
+  <h2>What is CSS?</h2>
+  <div class=emphasis>Cascading Style Sheets</div> create the look and feel of the webpage. If a webpage were a tent, the HTML would be the wooden frame and the CSS would be the fabric that covers it. CSS is also a way of avoiding repetition. For instance, if you want every heading to have the same font, color, size and background color, you do not have to write this into the code of each heading repeatedly. Instead, you create a CSS file with the style information and link that file to your HTML file. 
+  Here are the basic steps:
+    <ol>
+      <li>1. Create two separate files in one folder on your computer. One is an HTML (.html) document and the other is a CSS (.css) document.
+      <li>2. Write the HTML which includes the structure and content of the page. Make sure to identify certain <div class=emphasis>elements</div> to which you would like to apply <div class=emphasis>attributes</div> from your CSS document.</li>
+      <li>3. Write the CSS which includes information on the colors, fonts, visual layout, etc.</li>
+      <li>4. Put a link to the CSS file into the <div class=code>&lt;head&gt;</div> section of your HTML document that looks like this:
+      <div class=code>&lt;link href="thenameofyourcssfile.css" rel="stylesheet" type="text/css"&gt;</div></li>
+    </ol>
+  Now your CSS document can talk to your HTML document!
+  <h2>CSS Syntax and Structure</h2>
+  CSS looks different from HTML. HTML has a lot of <div class=code>&lt;</div>, <div class=code>/</div> and <div class=code>=</div> but you can recognize a CSS document by symbols like <div class=code>{ }</div>, <div class=code> : </div> and <div class=code> * </div>
+  Here are an HTML document and a CSS document for a side-by-side comparison. The HTML document has some content you can recognize on this webpage because HTML provides the structure and the content. The CSS document is only information about the visual degign of the page but does not have any content that will appear on the webpage.
+  <img src="htmlandcss_screenshot.png" style="height:425px; width:650px; margin-left:15%" alt="HTML and CSS documents">
+<br>
+  The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Developer Network</a> has all the CSS references you can use.
+</body>
+</html>
