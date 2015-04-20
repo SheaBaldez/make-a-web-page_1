@@ -1,0 +1,88 @@
+/* Intro to programming project style sheet 1 */
+*{
+	color:#0F2E1F;
+	font-family:Arial, sans-serif;
+	clear:both;
+	background-color:#EBF5F0;
+	clear:both;
+	border-radius:5px;
+	max-width:960px;
+	list-style:none;
+}
+body{
+	display:inline-block;
+	margin:2%;
+}
+h1{
+	font-size:1.5em;
+	background-color:#339966;
+	color:white;
+	height:2em;
+	text-align:center;
+	padding-top:10px;
+}
+h2{	
+	font-size:1.5em;
+	color:#008F6B;
+	margin-left:1%;
+}
+img{
+	margin-left:30%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:2px dotted gray;
+	display:inline;
+}
+a{	
+	font-size:1.15em;
+	color:#339966;
+	display:inline;
+	margin:1px;
+}
+.menu{
+	display:block;
+	background-color:#339966;
+	font-size:1.5em;
+	color:white;
+	height:2em;
+	text-align:center;
+	padding-top:10px;
+}
+.sidebar{
+	float:left;
+	border:2px dotted #D1B2C2;
+	height:100%;
+	font-size:1.15em;
+	display:inline-block;
+	text-align:left;
+}
+/*Emphasis class is for terms which 
+might be linked to a glossary or something else later so emphasis and 
+"a" styles are similar, with "a" being underlined,
+so the styles can be merged later*/
+.emphasis{
+	font-size:1.25em;
+	font-style: italic;
+	color:#339966;
+	display:inline;
+	margin:1px;
+}
+/*Note class is for notes or remarks to the user.*/
+.note{
+	font-family:cursive;
+	border-radius:10px;
+	border:3px dotted #A3CCA3;
+	max-width:300px;
+	padding:6px;
+	margin-left:30%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.code{
+	font-family:monospace;
+	font-size:1.1em;
+	border:1px solid gray;
+	display:inline-block;
+	margin:1px;
+	background-color:white;
+}
